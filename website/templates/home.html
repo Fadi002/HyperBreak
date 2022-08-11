@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/home.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>HyperBreak obfuscator</title>
+</head>
+<body>
+    <script>
+        function github(){
+            window.open('https://github.com/Fadi002','_blank').focus()
+        }
+        function butn(){
+            window.location.href = "/obf";
+        }
+    </script>
+    <nav>
+        <a href="/">home</a>
+        <a href="/obf">obfuscator</a>
+        <a onclick="github()">github</a>
+    </nav>
+    <hr size="2" width="100%" color='#263238'>
+    <br>
+    <h1 id="justtitle">HyperBreak python obfuscator</h1>
+    <br>
+    <p id="justparg">
+        HyperBreak project is an open source project made to obfuscate python scripts online to <strong>protect</strong> it from <strong>skids</strong>, check it out :)
+    </p>
+    <br><hr size="2" width="100%" color='#263238'><br>
+    <h1 id="justtitle">How it works ?</h1>
+    <p id="justparg">
+        well, <strong>HyperBreak</strong> has strong encryption layers and very fast execution. 
+    </p>
+    <br><br>
+    <h1 id="justtitle">I need to download more packages ?</h1>
+    <p id="justparg">
+        No, you don't have to, because <strong>HyperBreak</strong> uses built-in functions to protect your code.
+    </p>
+    <br><hr size="2" width="100%" color='#263238'><br><br>
+    <h1 id="justtitle">Give it a try :)</h1>
+    <br>
+    <center>
+        <button onclick="butn()" id="try">let me obfuscate my code</button>
+    </center>
+    <footer id="footer">
+        <p id="copyrights">&copy; Made By Fadi - Copyrights 2022<br> 
+    </footer>
+</body>
+</html>

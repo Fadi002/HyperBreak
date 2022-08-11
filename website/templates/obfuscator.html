@@ -1,0 +1,66 @@
+<!-- #263238
+
+P
+P — Light
+
+#4f5b62
+
+P — Dark
+
+#000a12 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>HyperBreak obfuscator</title>
+</head>
+<body>
+    <script>
+        function github(){
+            window.open('https://github.com/Fadi002','_blank').focus()
+        }
+        var clicked = 'f'
+        function justreplace(){
+            if (clicked!='t') {
+                var noice = document.getElementById("script")
+                clicked = 't'
+                noice.value = ''
+            }
+        }
+    </script>
+    <nav>
+        <a href="/">home</a>
+        <a href="/obf">obfuscator</a>
+        <a onclick="github()">github</a>
+    </nav>
+    <hr size="2" width="100%" color='#263238'>  
+    <h1 id="justtitle">HyperBreak python obfuscator</h1>
+    <h3 id="justparg">the best python obfuscator</h3>
+    <br>
+    <div>
+        <div style="width: 45%; height: 100px; float: right;" >
+            <textarea disabled  name="outputf" id="output">{{ code }}</textarea>            
+        </div>
+        <div style="width: 50%; height: 140px; float: right;">
+            <form action="/obf" method='POST'>
+            <textarea name="code" onclick="justreplace()" id="script">Paste your python code here</textarea>
+            <br><br>
+            <button id="obfuscate">obfuscate</button>
+            <label id="cool">
+                rename varables
+                <input name="rename" value="True" type="checkbox" id="rename">
+            </label>
+        </form>
+        </div>
+    </div>
+    <footer id="footer">
+        <p id="copyrights">&copy; Made By Fadi - Copyrights 2022<br> 
+    </footer>
+</body>
+</html>
