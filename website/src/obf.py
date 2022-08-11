@@ -95,6 +95,6 @@ def HyperBreak_obf(code,rename='False'):
     if rename == 'True':
         code = var_renamer(code)
     code = encode1(code)
-    code = mar(code)
+    for i in range(10):code = mar(code)
     code = encode2(code)
     return code
