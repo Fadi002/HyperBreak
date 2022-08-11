@@ -14,7 +14,7 @@
 <br><br>
 <strong>+ Very easy to use</strong>
 <br>
-<strong>+ Web UI ( live try : https://hyperbreak.ar-tools.tk/obf )</strong>
+<strong>+ Web UI ( live try : https://hyperbreak.ar-tools.tk/ )</strong>
 <br>
 <strong>+ Hide your code</strong>
 <br>
