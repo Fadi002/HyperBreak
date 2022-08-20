@@ -1,6 +1,6 @@
 -----
 ### <p align="center">HyperBreak</p>
-
+![image](https://media.discordapp.net/attachments/960160330749734982/1010692126197162054/unknown.png)
 <br><br>
 <p align="center">
 <strong>HyperBreak its just a python obfuscator that can hide your code with good protection
